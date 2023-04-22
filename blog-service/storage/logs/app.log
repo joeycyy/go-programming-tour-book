@@ -1,0 +1,5 @@
+2023/04/17 23:48:54 {"callers":["E:/go-programming-tour-book/blog-service/main.go: 20 main.init.0"],"level":"info","message":"get tags success","time":1681746534257586000}
+2023/04/17 23:48:54 {"callers":["E:/go-programming-tour-book/blog-service/main.go: 20 main.init.0"],"level":"info","message":"get tags success","time":1681746534261831200}
+2023/04/17 23:49:01 {"callers":["E:/go-programming-tour-book/blog-service/main.go: 20 main.init.0"],"level":"error","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1681746541161537700}
+2023/04/17 23:49:04 {"callers":["E:/go-programming-tour-book/blog-service/main.go: 20 main.init.0"],"level":"info","message":"get tags success","time":1681746544712462900}
+2023/04/19 19:53:18 {"callers":["E:/go-programming-tour-book/blog-service/main.go: 20 main.init.0"],"level":"info","message":"get tags success","time":1681905198303603500}
