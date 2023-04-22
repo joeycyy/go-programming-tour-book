@@ -17,7 +17,7 @@ func init() {
 	if err != nil {
 		log.Fatalf("init.setupsetting err: %v", err)
 	}
-	err = setupLoggr()
+	err = setupLogger()
 	if err != nil {
 		log.Fatalf("init.setupLogger err: %v", err)
 	}
@@ -61,7 +61,7 @@ func setupSetting() error {
 	return nil
 }
 
-func setupLoggr() error {
+func setupLogger() error {
 	global.Logger = logger.NewLogger(&lumberjack.Logger{
 		Filename:  global.AppSetting.LogSavePath + "/" + global.AppSetting.LogFileName + global.AppSetting.LogFileExt,
 		MaxSize:   600,
