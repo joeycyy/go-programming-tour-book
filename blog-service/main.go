@@ -1,8 +1,10 @@
 package main
 
 import (
+	"github.com/go-programming-tour-book/blog-service/internal/model"
 	"log"
 	"net/http"
+	"time"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-programming-tour-book/blog-service/global"
@@ -20,6 +22,10 @@ func init() {
 	err = setupLogger()
 	if err != nil {
 		log.Fatalf("init.setupLogger err: %v", err)
+	}
+	err = setupDBEngine()
+	if err != nil {
+		log.Fatalf("init.setupDBEngine err: %v", err)
 	}
 }
 
@@ -46,6 +52,11 @@ func setupSetting() error {
 	if err != nil {
 		return err
 	}
+	err = setting.ReadSection("JWT", &global.JWTSetting)
+	if err != nil {
+		return err
+	}
+	global.JWTSetting.Expire *= time.Second
 	err = setting.ReadSection("Server", &global.ServerSetting)
 	if err != nil {
 		return err
@@ -68,6 +79,16 @@ func setupLogger() error {
 		MaxAge:    10,
 		LocalTime: true,
 	}, "", log.LstdFlags).WithCaller(2)
+
+	return nil
+}
+
+func setupDBEngine() error {
+	var err error
+	global.DBEngine, err = model.NewDBEngine(global.DatabaseSetting)
+	if err != nil {
+		return err
+	}
 
 	return nil
 }

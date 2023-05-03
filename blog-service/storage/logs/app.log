@@ -3,3 +3,21 @@
 2023/04/17 23:49:01 {"callers":["E:/go-programming-tour-book/blog-service/main.go: 20 main.init.0"],"level":"error","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1681746541161537700}
 2023/04/17 23:49:04 {"callers":["E:/go-programming-tour-book/blog-service/main.go: 20 main.init.0"],"level":"info","message":"get tags success","time":1681746544712462900}
 2023/04/19 19:53:18 {"callers":["E:/go-programming-tour-book/blog-service/main.go: 20 main.init.0"],"level":"info","message":"get tags success","time":1681905198303603500}
+2023/04/22 23:25:40 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 20 main.init.0"],"level":"info","message":"get tags success","time":1682177140769775400}
+2023/04/22 23:26:04 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 20 main.init.0"],"level":"info","message":"get tags success","time":1682177164455531000}
+2023/04/24 23:33:01 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppSecret为必填字段,AppKey为必填字段","time":1682350381892667500}
+2023/04/24 23:33:11 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1682350391990144000}
+2023/04/24 23:33:16 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1682350396830511100}
+2023/04/24 23:33:18 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1682350398919140400}
+2023/04/24 23:33:43 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1682350423854348700}
+2023/04/24 23:34:15 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1682350455095718000}
+2023/04/24 23:34:17 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1682350457439027900}
+2023/04/24 23:34:18 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1682350458457671000}
+2023/04/24 23:34:19 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppSecret为必填字段,AppKey为必填字段","time":1682350459282207900}
+2023/04/24 23:34:20 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1682350460325525200}
+2023/04/24 23:34:21 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1682350461328155700}
+2023/04/24 23:37:22 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1682350642893215000}
+2023/04/24 23:38:06 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppKey为必填字段,AppSecret为必填字段","time":1682350686266159400}
+2023/04/24 23:38:09 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 21 main.init.0"],"level":"error","message":"app.BindAndValid errs: AppSecret为必填字段,AppKey为必填字段","time":1682350689992985700}
+2023/04/24 23:53:27 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 22 main.init.0"],"level":"error","message":"app.GenerateToken err: key is of invalid type","time":1682351607365232000}
+2023/04/24 23:55:14 {"callers":["E:/goprogram/go-programming-tour-book/blog-service/main.go: 22 main.init.0"],"level":"error","message":"app.GenerateToken err: key is of invalid type","time":1682351714360316000}
